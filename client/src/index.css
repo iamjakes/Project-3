@@ -90,14 +90,17 @@ nav {
 }
 
 nav a {
-  padding: 6px 10px;
-  margin: 0 15px;
+  padding:25px;
+  margin:20px;
   transition: all 0.2s;
 }
 
 nav a:hover {
   color: var(--secondary);
   background-color: var(--dark);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 4px;
 }
 
 .page-title {

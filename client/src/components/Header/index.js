@@ -8,20 +8,29 @@ const Header = () => {
             </div>
         <nav>
             <ul className="flex-row">
-                <li className="mx-1 ">
-                    <a href="#list-item" className="px-2 mr-3">
-                        List item
+                <li>
+                    <a href="#entertainment" className="pl-0 ml-0">
+                        Entertainment
                     </a>
                 </li>
                 <li>
-                    <a href="#list-item2">
-                        List item 2
+                    <a href="#food" className="pl-0 ml-0">
+                        Food
                     </a>
                 </li>
             
                 <li>
-                <span>Item</span>
+                    <a href="#entertainment" className="pl-0 ml-0">
+                        Sports
+                    </a>
                 </li>
+                <li>
+                    <a href="#food" className="pl-0 ml-0">
+                        Reviews
+                    </a>
+                </li>
+
+
             </ul>
         </nav>
     </header>
