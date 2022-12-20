@@ -30,7 +30,6 @@ const Header = () => {
                     </a>
                 </li>
 
-
             </ul>
         </nav>
     </header>
