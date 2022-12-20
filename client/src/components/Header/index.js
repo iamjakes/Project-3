@@ -25,7 +25,7 @@ const Header = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="#reviews" className="pl-0 ml-0">
+                    <a href="reviews" className="pl-0 ml-0">
                         Reviews
                     </a>
                 </li>
