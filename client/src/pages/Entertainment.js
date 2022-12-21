@@ -7,13 +7,13 @@ const Entertainment = () => {
             <div className='flex-row justify-space-between'>
                 <h1>Entertainment</h1>
             </div>
-            <div className="flex-column justify-space-between">
+            <div className="flex-column justify-space-between p-3">
                 <section className="card">
                     <h1 className="card-header">Some Fun Entertainment Events</h1>
                     <div className="card-body">
-                        <meat className="container">
-                            <img src={exampleImg} className="my-3" style={{ width: "50%"}} alt="example"/>
-                            <p>Some info about said event</p>
+                        <meat className="container flex-row justify-space-between">
+                            <img src={exampleImg} className="display-inline" style={{ width: "40%"}} alt="example"/>
+                            <p className="flex-row">Some info about said event</p>
                         </meat>
                     </div>
                 </section>

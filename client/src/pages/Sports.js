@@ -6,7 +6,7 @@ const Sports = () => {
             <div className='flex-row justify-space-between'>
                 <h1>Sports</h1>
             </div>
-            <div className="flex-column justify-space-between">
+            <div className="flex-column justify-space-between p-3">
                 <section className="card">
                     <h1 className="card-header">Check out our sports Clubs!</h1>
                     <div className="card-body">
