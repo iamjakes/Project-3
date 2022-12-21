@@ -4,8 +4,7 @@ const Header = () => {
     return(
         <header className="bg-secondary mb-3 py-2 flex-row align-center">
             <div className="container flex-row justify-space-between-lg justify-center align-center">
-                <h1 className= "page-title"><a href="/">Project 3</a></h1>
-            </div>
+                <h1 className= "page-title"><a href="/">Personal Travel Tracker ✈️ </a></h1>
         <nav>
             <ul className="flex-row">
                 <li>
@@ -32,6 +31,7 @@ const Header = () => {
 
             </ul>
         </nav>
+        </div>
     </header>
     )
 }
