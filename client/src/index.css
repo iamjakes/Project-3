@@ -1,6 +1,6 @@
 :root {
   --primary: #497573;
-  --secondary: #99f7f2;
+  --secondary: #0e0f0e;
   --tertiary: #b2c2c1;
   --quatrinary: #cadbda;
   --light: #e1f5f4;
@@ -98,13 +98,13 @@ nav a {
 nav a:hover {
   color: var(--secondary);
   background-color: var(--dark);
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 2px;
 }
 
 .page-title {
-  text-align: center;
+  text-align:left;
   width: 100%;
   margin: 0;
   font-size: 2.5rem;
@@ -149,6 +149,7 @@ nav a:hover {
   background-color: var(--dark);
   padding: 0.625rem;
   border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
+  font-size: xx-large;
 }
 
 .card-body {
